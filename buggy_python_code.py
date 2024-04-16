@@ -35,6 +35,7 @@ def fetch_website(urllib_version, url):
         print('Exception')
 
 
+
 def load_yaml(filename):
     stream = open(filename)
     deserialized_data = yaml.load(stream, Loader=yaml.Loader) #deserializing data
